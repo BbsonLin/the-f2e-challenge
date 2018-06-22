@@ -1,6 +1,6 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/the-f2e-challenge/w3-admin/'
+    base: '/the-f2e-challenge/w3-admin/dist/'
   }
 } : {}
 
